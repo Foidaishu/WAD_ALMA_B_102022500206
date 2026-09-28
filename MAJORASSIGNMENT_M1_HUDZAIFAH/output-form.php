@@ -1,5 +1,4 @@
 <?php
-// Simple session-based storage instead of passing stored_data via hidden field
     session_start();
 
     if (!isset($_SESSION['items']) || !is_array($_SESSION['items'])) {
